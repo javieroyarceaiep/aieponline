@@ -1,4 +1,15 @@
 ﻿# aieponline
+
+ Documentacion del proceso de compilacion:
+Compilación del Código
+Para compilar el código fuente se debe ejecutar la línea de comandos desde donde se encuentran los archivos. 
+Primero se debe ejecutar el compilador, en este caso javac
+javac VehiculoApp.java
+Esto generará el archivo VehiculoApp.class.
+Luego se debe ejecutar el programa con el comando:
+java VehiculoApp
+
+ 
 📋 Requerimientos del Proyecto – Distribuidora de Alimentos
 
 Este proyecto corresponde al desarrollo de una aplicación en Java (sin uso de IDE) que permite capturar datos, calcular costos de despacho según reglas de negocio y organizar la documentación en un repositorio de GitHub.
@@ -125,4 +136,5 @@ Criterios de aceptación:
 El sistema debe pedir la distancia (en km).
 
 El costo de despacho debe calcularse como 300 × distancia y mostrarse junto al valor total.
+
 
