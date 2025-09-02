@@ -1,0 +1,14 @@
+Cronograma Inicial – Proyecto Distribuidora de Alimentos
+
+El siguiente cronograma define la planificación inicial del proyecto. Durante el desarrollo, se actualizará en GitHub para reflejar avances y cambios.
+
+Semana	Actividad	Responsable	Entregable	Estado
+1	Instalación de JDK y configuración de variables de entorno	Estudiante	Entorno de desarrollo configurado	✅
+1	Creación del repositorio en GitHub	Estudiante	Repositorio inicial con README.md	✅
+2	Desarrollo del código fuente en Java (captura y salida de datos)	Estudiante	Archivo DistribuidoraApp.java	⏳
+2	Compilación y ejecución desde consola (JVM)	Estudiante	Archivo .class funcionando	⏳
+3	Documentación línea por línea del código	Estudiante	Comentarios dentro del código	⏳
+3	Subida de documentación al repositorio (README.md y manual)	Estudiante	Documentación completa en GitHub	⏳
+4	Elaboración de historias de usuario y requerimientos	Estudiante	Archivo HistoriasUsuario.md y sección de requerimientos	⏳
+4	Carga del cronograma en GitHub Projects	Estudiante	Tablero de seguimiento en GitHub	⏳
+5	Revisión final y entrega	Estudiante	Proyecto completo y documentado	⏳
