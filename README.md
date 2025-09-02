@@ -62,3 +62,67 @@ El código debe ser simple, modular y con buenas prácticas para facilitar futur
 Usabilidad:
 
 La aplicación debe interactuar mediante consola con entradas claras para el usuario y mensajes de salida comprensibles.
+
+
+📖 Historias de Usuario – Proyecto Distribuidora de Alimentos
+
+Las siguientes historias de usuario fueron elaboradas considerando el caso de estudio de la distribuidora de alimentos, sus clientes y los objetivos del sistema a desarrollar.
+
+👤 Historia de Usuario 1 – Registro de usuario con Gmail
+
+Como cliente de la distribuidora
+Quiero registrarme en la aplicación utilizando mi cuenta de Gmail
+Para acceder fácilmente sin necesidad de crear un usuario desde cero.
+
+Criterios de aceptación:
+
+El sistema debe permitir iniciar sesión con una cuenta Gmail válida.
+
+Una vez autenticado, el sistema debe mostrar un mensaje de bienvenida con el nombre del usuario.
+
+👤 Historia de Usuario 2 – Ingreso de datos del vehículo
+
+Como cliente de la distribuidora
+Quiero ingresar la información básica de mi vehículo (marca, modelo, cilindrada, tipo de combustible, capacidad de pasajeros)
+Para que el sistema registre y muestre mis datos correctamente.
+
+Criterios de aceptación:
+
+El sistema debe solicitar cada dato de manera clara.
+
+Al finalizar, debe desplegar en pantalla un resumen con los datos ingresados.
+
+👤 Historia de Usuario 3 – Cálculo de despacho gratuito
+
+Como cliente que realiza una compra mayor a $50.000 dentro de 20 km
+Quiero que la aplicación calcule automáticamente el despacho gratuito
+Para confirmar que no debo pagar adicional por el envío.
+
+Criterios de aceptación:
+
+Si el monto de la compra ≥ $50.000 y la distancia ≤ 20 km, el sistema debe mostrar costo de despacho = $0.
+
+👤 Historia de Usuario 4 – Cálculo de despacho con tarifa media
+
+Como cliente que realiza una compra entre $25.000 y $49.999
+Quiero que el sistema me cobre $150 por km recorrido
+Para conocer el valor adicional que debo pagar por el envío.
+
+Criterios de aceptación:
+
+El sistema debe pedir la distancia (en km).
+
+El costo de despacho debe calcularse como 150 × distancia y mostrarse junto al valor total.
+
+👤 Historia de Usuario 5 – Cálculo de despacho con tarifa alta
+
+Como cliente que realiza una compra menor a $25.000
+Quiero que el sistema me cobre $300 por km recorrido
+Para visualizar el costo final del despacho.
+
+Criterios de aceptación:
+
+El sistema debe pedir la distancia (en km).
+
+El costo de despacho debe calcularse como 300 × distancia y mostrarse junto al valor total.
+
